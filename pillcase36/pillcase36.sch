@@ -26,17 +26,6 @@ F 3 "" H 9100 50  50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5B83F1CB
-P 1750 2350
-F 0 "JP1" H 1750 2555 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 1750 2464 50  0000 C CNN
-F 2 "pillcase36:JP" H 1750 2350 50  0001 C CNN
-F 3 "~" H 1750 2350 50  0001 C CNN
-	1    1750 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW1
 U 1 1 5B86D15D
 P 2250 1900
@@ -61,14 +50,10 @@ $EndComp
 Wire Wire Line
 	2000 1900 2050 1900
 Wire Wire Line
-	2000 1550 2000 1900
-Wire Wire Line
 	2450 1900 2550 1900
 Wire Wire Line
 	2550 1900 2550 2000
 Connection ~ 2000 1900
-Wire Wire Line
-	1900 2350 2550 2350
 Wire Wire Line
 	2550 2350 2550 2300
 Connection ~ 2550 2350
@@ -96,8 +81,6 @@ F 3 "~" H 3300 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 1900 2800 1900
-Wire Wire Line
-	2750 1550 2750 1900
 Wire Wire Line
 	3200 1900 3300 1900
 Wire Wire Line
@@ -133,8 +116,6 @@ $EndComp
 Wire Wire Line
 	3500 1900 3550 1900
 Wire Wire Line
-	3500 1550 3500 1900
-Wire Wire Line
 	3950 1900 4050 1900
 Wire Wire Line
 	4050 1900 4050 2000
@@ -168,8 +149,6 @@ F 3 "~" H 4800 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 1900 4300 1900
-Wire Wire Line
-	4250 1550 4250 1900
 Wire Wire Line
 	4700 1900 4800 1900
 Wire Wire Line
@@ -205,8 +184,6 @@ $EndComp
 Wire Wire Line
 	5000 1900 5050 1900
 Wire Wire Line
-	5000 1550 5000 1900
-Wire Wire Line
 	5450 1900 5550 1900
 Wire Wire Line
 	5550 1900 5550 2000
@@ -240,8 +217,6 @@ F 3 "~" H 6300 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5750 1900 5800 1900
-Wire Wire Line
-	5750 1550 5750 1900
 Wire Wire Line
 	6200 1900 6300 1900
 Wire Wire Line
@@ -280,8 +255,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 2800 2550 2900
 Connection ~ 2000 2800
-Wire Wire Line
-	1900 3250 2550 3250
 Wire Wire Line
 	2550 3250 2550 3200
 Connection ~ 2550 3250
@@ -496,8 +469,6 @@ Wire Wire Line
 	2550 3700 2550 3800
 Connection ~ 2000 3700
 Wire Wire Line
-	1900 4150 2550 4150
-Wire Wire Line
 	2550 4150 2550 4100
 Connection ~ 2550 4150
 $Comp
@@ -710,8 +681,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 4600 2550 4700
 Connection ~ 2000 4600
-Wire Wire Line
-	1900 5050 2550 5050
 Wire Wire Line
 	2550 5050 2550 5000
 Connection ~ 2550 5050
@@ -926,8 +895,6 @@ Wire Wire Line
 	2550 5500 2550 5600
 Connection ~ 2000 5500
 Wire Wire Line
-	1900 5950 2550 5950
-Wire Wire Line
 	2550 5950 2550 5900
 Connection ~ 2550 5950
 $Comp
@@ -1140,8 +1107,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 6400 2550 6500
 Wire Wire Line
-	1900 6850 2550 6850
-Wire Wire Line
 	2550 6850 2550 6800
 Connection ~ 2550 6850
 $Comp
@@ -1321,127 +1286,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 5500 5750 6400
 $Comp
-L Jumper:SolderJumper_2_Bridged JP2
-U 1 1 5B8B7BA8
-P 1750 3250
-F 0 "JP2" H 1750 3455 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 1750 3364 50  0000 C CNN
-F 2 "pillcase36:JP" H 1750 3250 50  0001 C CNN
-F 3 "~" H 1750 3250 50  0001 C CNN
-	1    1750 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP3
-U 1 1 5B8C3C18
-P 1750 4150
-F 0 "JP3" H 1750 4355 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 1750 4264 50  0000 C CNN
-F 2 "pillcase36:JP" H 1750 4150 50  0001 C CNN
-F 3 "~" H 1750 4150 50  0001 C CNN
-	1    1750 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP4
-U 1 1 5B8CFC97
-P 1750 5050
-F 0 "JP4" H 1750 5255 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 1750 5164 50  0000 C CNN
-F 2 "pillcase36:JP" H 1750 5050 50  0001 C CNN
-F 3 "~" H 1750 5050 50  0001 C CNN
-	1    1750 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP5
-U 1 1 5B8DBD1F
-P 1750 5950
-F 0 "JP5" H 1750 6155 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 1750 6064 50  0000 C CNN
-F 2 "pillcase36:JP" H 1750 5950 50  0001 C CNN
-F 3 "~" H 1750 5950 50  0001 C CNN
-	1    1750 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP6
-U 1 1 5B8E7DA4
-P 1750 6850
-F 0 "JP6" H 1750 7055 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 1750 6964 50  0000 C CNN
-F 2 "pillcase36:JP" H 1750 6850 50  0001 C CNN
-F 3 "~" H 1750 6850 50  0001 C CNN
-	1    1750 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP7
-U 1 1 5B8F3E6D
-P 2000 1400
-F 0 "JP7" H 2000 1605 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 2000 1514 50  0000 C CNN
-F 2 "pillcase36:JP" H 2000 1400 50  0001 C CNN
-F 3 "~" H 2000 1400 50  0001 C CNN
-	1    2000 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP8
-U 1 1 5B93C255
-P 2750 1400
-F 0 "JP8" H 2750 1605 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 2750 1514 50  0000 C CNN
-F 2 "pillcase36:JP" H 2750 1400 50  0001 C CNN
-F 3 "~" H 2750 1400 50  0001 C CNN
-	1    2750 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP9
-U 1 1 5B9482DF
-P 3500 1400
-F 0 "JP9" H 3500 1605 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 3500 1514 50  0000 C CNN
-F 2 "pillcase36:JP" H 3500 1400 50  0001 C CNN
-F 3 "~" H 3500 1400 50  0001 C CNN
-	1    3500 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP10
-U 1 1 5B954366
-P 4250 1400
-F 0 "JP10" H 4250 1605 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 4250 1514 50  0000 C CNN
-F 2 "pillcase36:JP" H 4250 1400 50  0001 C CNN
-F 3 "~" H 4250 1400 50  0001 C CNN
-	1    4250 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP11
-U 1 1 5B9603F6
-P 5000 1400
-F 0 "JP11" H 5000 1605 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 5000 1514 50  0000 C CNN
-F 2 "pillcase36:JP" H 5000 1400 50  0001 C CNN
-F 3 "~" H 5000 1400 50  0001 C CNN
-	1    5000 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP12
-U 1 1 5B96C46F
-P 5750 1400
-F 0 "JP12" H 5750 1605 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 5750 1514 50  0000 C CNN
-F 2 "pillcase36:JP" H 5750 1400 50  0001 C CNN
-F 3 "~" H 5750 1400 50  0001 C CNN
-	1    5750 1400
-	0    1    1    0   
-$EndComp
-$Comp
 L Memory_EEPROM:24LC00 U2
 U 1 1 5B9A9C53
 P 10000 4250
@@ -1478,54 +1322,30 @@ Text GLabel 7450 2700 0    50   Input ~ 0
 SCL1
 Text GLabel 7450 2800 0    50   Input ~ 0
 SDA1
-Text GLabel 1400 2350 0    50   Input ~ 0
+Text GLabel 1700 2350 0    50   Input ~ 0
 ROW0
-Text GLabel 1400 3250 0    50   Input ~ 0
+Text GLabel 1700 3250 0    50   Input ~ 0
 ROW1
-Text GLabel 1400 4150 0    50   Input ~ 0
+Text GLabel 1700 4150 0    50   Input ~ 0
 ROW2
-Text GLabel 1400 5050 0    50   Input ~ 0
+Text GLabel 1700 5050 0    50   Input ~ 0
 ROW3
-Text GLabel 1400 5950 0    50   Input ~ 0
+Text GLabel 1700 5950 0    50   Input ~ 0
 ROW4
-Text GLabel 1400 6850 0    50   Input ~ 0
+Text GLabel 1700 6850 0    50   Input ~ 0
 ROW5
-Wire Wire Line
-	1400 2350 1600 2350
-Wire Wire Line
-	1400 3250 1600 3250
-Wire Wire Line
-	1400 4150 1600 4150
-Wire Wire Line
-	1400 5050 1600 5050
-Wire Wire Line
-	1600 5950 1400 5950
-Wire Wire Line
-	1400 6850 1600 6850
-Text GLabel 2000 1050 1    50   Input ~ 0
+Text GLabel 2000 1350 1    50   Input ~ 0
 COL0
-Text GLabel 2750 1050 1    50   Input ~ 0
+Text GLabel 2750 1350 1    50   Input ~ 0
 COL1
-Text GLabel 3500 1050 1    50   Input ~ 0
+Text GLabel 3500 1350 1    50   Input ~ 0
 COL2
-Text GLabel 4250 1050 1    50   Input ~ 0
+Text GLabel 4250 1350 1    50   Input ~ 0
 COL3
-Text GLabel 5000 1050 1    50   Input ~ 0
+Text GLabel 5000 1350 1    50   Input ~ 0
 COL4
-Text GLabel 5750 1050 1    50   Input ~ 0
+Text GLabel 5750 1350 1    50   Input ~ 0
 COL5
-Wire Wire Line
-	2000 1050 2000 1250
-Wire Wire Line
-	2750 1050 2750 1250
-Wire Wire Line
-	3500 1050 3500 1250
-Wire Wire Line
-	4250 1050 4250 1250
-Wire Wire Line
-	5000 1050 5000 1250
-Wire Wire Line
-	5750 1050 5750 1250
 Text GLabel 10700 4150 2    50   Input ~ 0
 SDA1
 Text GLabel 10700 4250 2    50   Input ~ 0
@@ -2285,4 +2105,48 @@ Wire Wire Line
 Wire Wire Line
 	8500 5700 8500 5850
 Connection ~ 8500 5850
+Wire Wire Line
+	1700 2350 2550 2350
+Wire Wire Line
+	1700 3250 2550 3250
+Wire Wire Line
+	1700 4150 2550 4150
+Wire Wire Line
+	1700 5050 2550 5050
+Wire Wire Line
+	1700 5950 2550 5950
+Wire Wire Line
+	1700 6850 2550 6850
+Wire Wire Line
+	2000 1350 2000 1900
+Wire Wire Line
+	2750 1350 2750 1900
+Wire Wire Line
+	3500 1350 3500 1900
+Wire Wire Line
+	4250 1350 4250 1900
+Wire Wire Line
+	5000 1350 5000 1900
+Wire Wire Line
+	5750 1350 5750 1900
+$Comp
+L Device:C 0.1u1
+U 1 1 5B911160
+P 9150 4250
+F 0 "0.1u1" H 9265 4296 50  0000 L CNN
+F 1 "C" H 9265 4205 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9188 4100 50  0001 C CNN
+F 3 "~" H 9150 4250 50  0001 C CNN
+	1    9150 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4100 9150 3850
+Wire Wire Line
+	9150 3850 10000 3850
+Wire Wire Line
+	9150 4400 9150 4600
+Wire Wire Line
+	9150 4600 9450 4600
+Connection ~ 9450 4600
 $EndSCHEMATC
